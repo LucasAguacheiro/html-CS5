@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+        div.quadrada { 
+            display: inline-block;
+            border-radius: 10px;
+            border: 2px solid black;
+            background-color: lightgrey;
+            width: 300px;
+            height: 300px;
+
+        }
+
+        div.bloco{
+            background-image: url(imagens/wallpaper002.jpg);
+        }
+        
+        div#q1 {
+            background-color: aqua;
+
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3 {
+            background-image: url("imagens/pattern003.png");
+        }
+
+        div#q4 { 
+            background-image: url(imagens/pattern002.png) ;
+        }
+
+        div#q5{
+            height: 200px;
+            border: 1px solid black;
+            margin: 10px;
+            border-radius: 20px;
+            background-position: left top;
+        }
+
+            div#q6{
+                height: 200px;
+                border: 1px solid black;
+                border-radius: 20px;
+                margin: 10px;
+                background-position: right bottom;
+            }
+
+            div#q7{
+                height: 200px;
+                border: 1px solid black;
+                border-radius: 20px;
+                margin: 10px;
+                background-position: center center;
+            }
+
+
+
+            </style>
+</head>
+<body>
+    <div class="quadrada" id="q1">
+        
+        </div>
+    <div class="quadrada" id="q2">
+        </div>
+
+    <div class="quadrada" id="q3">
+        </div>
+    
+        <div class="quadrada" id="q4"></div>
+
+        <div class="bloco" id="q5"></div>
+
+        <div class="bloco" id="q6"> </div>
+
+        <div class="bloco" id="q7"></div>
+</body>
+</html>
