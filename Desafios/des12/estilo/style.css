@@ -3,23 +3,79 @@
 
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0x;
+
 }
 
 html, body {
-    min-height: 100/h;
+    min-height: 100vh;
     background-color: darkgray;
-    }
+}
 
-   h1 {
+header {
     background-color: black;
     text-align: center;
     color: white;
-   }
+    position: sticky;
+    top: 0;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    
+}
 
-   p {
+header> p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+a:hover {
+    text-decoration: underline;
+
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+    
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section.normal {
+    color: black;
+    background-color: white;
+}
+
+section.imagem {
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+
+}
+
+footer {
     background-color: black;
     text-align: center;
     color: white;
-   }
-
+    padding: 10px;
+}
